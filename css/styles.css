@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 body{
     font-family: "Roboto", sans-serif;
@@ -24,6 +28,9 @@ a{
 ul,
 ol{
     list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .logo{
@@ -78,15 +85,25 @@ ol{
 /* #region hero*/
 .hero{
     background-color: #2E2F42;
+    /* ---HW3---*/
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    /* ---HW3---*/
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 48px;
 }
 
 .button{
@@ -97,6 +114,18 @@ ol{
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    /* ---HW3---*/
+    display: block;
+    width: 169px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
 }
 
 .button:hover,
