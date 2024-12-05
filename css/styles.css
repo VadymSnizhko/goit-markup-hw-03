@@ -1,6 +1,5 @@
 h1,h2,h3,h4,h5,h6,p{
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 body{
@@ -8,10 +7,39 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
+
+.visually-hidden {
+ position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
 /* #region header */
+.container{
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .header{
     background-color: #FFFFFF;
+    /*border-bottom: 1px solid #E7E9FC;*/
+}
+
+.head-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-ul{
@@ -19,6 +47,9 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    /* HW3 */
+    margin-left: 76px;
+    gap: 40px;
 }
 
 a{
@@ -28,9 +59,8 @@ a{
 ul,
 ol{
     list-style-type: none;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .logo{
@@ -54,6 +84,19 @@ ol{
 
 .header-ul .item-link{
     color: #2e2f42;
+}
+
+.address-ul{
+    gap: 40px;
+}
+.item-list {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.item-link{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-ul .item-link{
@@ -133,12 +176,25 @@ ol{
     background-color: #404BBF;
 }
 
+.vision{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.vision-ul-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
 .vision-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+
+    margin-bottom: 8px;
 }
 
 .vision-h2{
@@ -149,6 +205,7 @@ ol{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }
 
 .team{
