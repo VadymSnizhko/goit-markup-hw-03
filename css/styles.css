@@ -31,6 +31,10 @@ overflow: hidden;
     margin-right: auto;
 }
 
+img{
+    display: block;
+}
+
 /* #region header */
 .header{
     background-color: #FFFFFF;
@@ -49,7 +53,7 @@ overflow: hidden;
     line-height: 1.5;
     letter-spacing: 0.02em;
     /* HW3 */
-    margin-left: 76px;
+    
     gap: 40px;
 }
 
@@ -76,6 +80,7 @@ ol{
     /* HW3 */
     display: inline-block ;
     margin-bottom: 17.5px;
+    margin-right: 76px;
 }
 
 .address{
